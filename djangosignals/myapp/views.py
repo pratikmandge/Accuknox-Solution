@@ -12,4 +12,4 @@ def my_view(request):
     logger.info(f"View running in thread: {threading.current_thread().name}")
     # This will trigger the signal handler
     instance = MyModel.objects.create(name="test")
-    return render(request, "template.html")
+    return render(request, "template.html", context={'mymodel_value' : instance})
