@@ -1,0 +1,4 @@
+venv
+djangosignals/myapp/__pycache__/
+djangosignals/djangosignals/__pycache__/
+djangosignals/myapp/migrations/__pycache__/
